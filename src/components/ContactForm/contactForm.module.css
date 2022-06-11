@@ -1,0 +1,35 @@
+.form {
+  border: 2px solid black;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.label {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 200px;
+  padding: 5px;
+}
+
+.button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: pink;
+}
+
+.formSpan {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}

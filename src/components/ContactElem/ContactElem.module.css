@@ -1,0 +1,23 @@
+.itemContact {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  margin: 0;
+  padding: 10px;
+}
+.button {
+  display: block;
+
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 10px;
+  width: 45px;
+  margin-left: 20px;
+}
+.button:hover,
+.button:focus {
+  background-color: pink;
+}

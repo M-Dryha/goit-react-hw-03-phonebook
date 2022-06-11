@@ -1,0 +1,9 @@
+.filterName {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
